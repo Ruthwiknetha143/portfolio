@@ -107,7 +107,7 @@ export const hero = {
 // Counters (all verifiable from the resume).
 export const stats = [
   { value: 4, suffix: '', label: 'Live deployed projects' },
-  { value: 3, suffix: '', label: 'Internships and freelance roles' },
+  { value: 3, suffix: '', label: 'Professional roles and internships' },
   { value: 3, suffix: '', label: 'Industry certifications' },
   { value: 8.2, suffix: '', decimals: 1, label: 'B.Tech GPA out of 10' },
 ]
@@ -169,6 +169,16 @@ export const strengths = [
 
 export const experience = [
   {
+    role: 'Associate Software Engineer',
+    org: 'SAVR Design',
+    date: 'Sep 2026 – Present',
+    points: [
+      'Assisted with development of the Tecqubes WordPress website alongside experienced developers and designers.',
+      'Worked on website implementation, content structure and frontend presentation for a client-facing project.',
+    ],
+    tags: ['WordPress', 'Frontend'],
+  },
+  {
     role: 'Cybersecurity Intern',
     org: 'Cigniti Technology (A Coforge Company)',
     date: 'Nov 2024 – Feb 2025',
@@ -188,16 +198,6 @@ export const experience = [
       'Analyzed system information using structured investigation methods and developed troubleshooting skills.',
     ],
     tags: ['Network monitoring', 'Digital forensics'],
-  },
-  {
-    role: 'Freelance Website Developer',
-    org: 'SAVR Design',
-    date: 'Project-based',
-    points: [
-      'Assisted with development of the Tecqubes WordPress website alongside experienced developers and designers.',
-      'Worked on website implementation, content structure and frontend presentation for a client-facing project.',
-    ],
-    tags: ['WordPress', 'Frontend'],
   },
 ]
 
